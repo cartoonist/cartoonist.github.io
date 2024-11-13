@@ -28,7 +28,7 @@ socials = [
     { name = "google-scholar", url = "https://scholar.google.de/citations?user=dvEu4aMAAAAJ", icon = "google-scholar" },
     { name = "github", url = "https://github.com/cartoonist/", icon = "github" },
     { name = "linkedin", url = "https://linkedin.com/in/alighaffaari/", icon = "linkedin" },
-    { name = "email", url = "ali@ghaffaari.me", icon = "email" },
+    { name = "email", url = "mailto:ali@ghaffaari.me", icon = "email" },
 ]
 menu = [
 # Configure menu bar here
