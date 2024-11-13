@@ -1,8 +1,5 @@
 +++
-title= "Apollo Theme"
-template = "homepage.html"
+redirect_to = "/contact"
+#[extra]
+#section_path = "posts/_index.md"
 +++
-
-Thanks for checking out this theme!
-
-Checkout all the [options you can configure](./posts/configuration) and the [example pages](./tags/example/).

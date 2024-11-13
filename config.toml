@@ -1,5 +1,6 @@
 # The URL the site will be built for
 base_url = "https://ali.ghaffaari.me"
+title = "cartoonist"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -19,11 +20,20 @@ highlight_code = true
 [extra]
 # Put all your custom variables here
 theme = "auto"
+favicon = "/icon/favicon.png"
 mathjax = true
 mathjax_dollar_inline_enable = true
 socials = [
 # Configure socials here
+    { name = "google-scholar", url = "https://scholar.google.de/citations?user=dvEu4aMAAAAJ", icon = "google-scholar" },
+    { name = "github", url = "https://github.com/cartoonist/", icon = "github" },
+    { name = "linkedin", url = "https://linkedin.com/in/alighaffaari/", icon = "linkedin" },
+    { name = "email", url = "ali@ghaffaari.me", icon = "email" },
 ]
 menu = [
 # Configure menu bar here
+    { name = "/cv", url = "", weight = 1 },
+    #{ name = "/projects", url = "/projects", weight = 2 },
+    { name = "/about", url = "/about", weight = 3 },
+    #{ name = "/contact", url = "/contact", weight = 4 },
 ]
