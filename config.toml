@@ -26,6 +26,7 @@ mathjax_dollar_inline_enable = true
 socials = [
 # Configure socials here
     { name = "google-scholar", url = "https://scholar.google.de/citations?user=dvEu4aMAAAAJ", icon = "google-scholar" },
+    { name = "ORCID", url = "https://orcid.org/0000-0002-0540-6515", icon = "orcid" },
     { name = "github", url = "https://github.com/cartoonist/", icon = "github" },
     { name = "linkedin", url = "https://linkedin.com/in/alighaffaari/", icon = "linkedin" },
     { name = "email", url = "mailto:ali@ghaffaari.me", icon = "email" },
