@@ -13,8 +13,8 @@ tags = ["meta"]
 
 > Maybe I'm not listening<br>
 > So blame it on my ADD, baby<br>
-
-*-- AWOLNATION (Sail)*
+>
+> -- AWOLNATION (Sail)
 
 {% description() %}
 This is both a beginning and a test -- a "hello, world!" kind of post, if you
