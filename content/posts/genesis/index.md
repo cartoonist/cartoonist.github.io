@@ -16,8 +16,10 @@ tags = ["meta"]
 
 *-- AWOLNATION (Sail)*
 
+{% description() %}
 This is both a beginning and a test -- a "hello, world!" kind of post, if you
 will.
+{% end %}
 
 In my reading, I tend to jump from one topic to another a lot... A LOT. So, when
 I'm diving deep into a topic, I really depend on a routine of extensive writing
