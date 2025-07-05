@@ -35,6 +35,7 @@ menu = [
 # Configure menu bar here
     { name = "/cv", url = "/file/AliGhaffaari_Resume.pdf", weight = 1 },
     #{ name = "/projects", url = "/projects", weight = 2 },
+    { name = "/blog", url = "/posts", weight = 2 },
     { name = "/about", url = "/about", weight = 3 },
     #{ name = "/contact", url = "/contact", weight = 4 },
 ]
