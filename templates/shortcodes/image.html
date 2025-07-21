@@ -1,2 +1,14 @@
 {% set image = resize_image(path=path, width=width, height=height, op=op) %}
+{% if centering %}
+<img src="{{ image.url }}" alt="" style="display: block; margin: auto; border: none; padding: 10px 0 10px 0;" />
+{% else %}
 <img src="{{ image.url }}" alt="" style="border: none; padding: 10px 0 10px 0;" />
+{% endif %}
+{% if caption %}
+{% if centering %}
+<em style="display: block; text-align: center; width: {{ width }}px; margin: auto;">
+{% else %}
+<em>
+{% endif %}
+{{ caption }}</em>
+{% endif %}
