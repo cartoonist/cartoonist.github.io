@@ -29,10 +29,10 @@ the book all lost in the poor printing quality. You constantly have to refer to
 external sources to understand their depth which most of the time is crucial to
 get the point the author is trying to make.
 
-![](/image/y8OrZSE.jpeg)
+{{ image(path="/image/y8OrZSE.jpeg", width=1000, height=200, op="fit_width") }}
 *Figure 1. The Flute Concert by Menzel printed in GEB*
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Adolph_Menzel_-_Fl%C3%B6tenkonzert_Friedrichs_des_Gro%C3%9Fen_in_Sanssouci_-_Google_Art_Project.jpg/2880px-Adolph_Menzel_-_Fl%C3%B6tenkonzert_Friedrichs_des_Gro%C3%9Fen_in_Sanssouci_-_Google_Art_Project.jpg)
+{{ image(path="/image/flute_concert.jpg", width=1000, height=200, op="fit_width") }}
 *Figure 2. The Flute Concert by Menzel from Wikipedia*
 
 This has motivated me to collect external resources that complement this book as
@@ -50,14 +50,16 @@ project, and I'll share more as soon as I find out more details.
 printed in colour. But the argument about the quality of printing still holds.
 See these two for example:
 
-![](/image/XrBZU26.jpeg)
-*Figure 3. Three Worlds, by M. C. Escher (lithograph, 1955) printed in GEB*
+{{ image(path="/image/XrBZU26.jpeg", width=600, height=200, op="fit_width",
+centering=true,
+caption="Figure 3. Three Worlds, by M. C. Escher (lithograph, 1955) printed in GEB") }}
 
-![](/image/G2XcZJZ.jpeg)
-*Figure 4. Three Worlds, by M. C. Escher (lithograph, 1955) from "Museum Escher in Het Paleis" website*
+{{ image(path="/image/G2XcZJZ.jpeg", width=600, height=200, op="fit_width",
+centering=true,
+caption="Figure 4. Three Worlds, by M. C. Escher (lithograph, 1955) from 'Museum Escher in Het Paleis' website") }}
 
-![](/image/7N1ufz3.jpeg)
+{{ image(path="/image/7N1ufz3.jpeg", width=1000, height=200, op="fit_width") }}
 *Figure 5. Dewdrop, by M. C. Escher (mezzotint, 1948) printed in GEB*
 
-![](/image/NNAPUDt.jpeg)
+{{ image(path="/image/NNAPUDt.jpeg", width=1000, height=200, op="fit_width") }}
 *Figure 6. Dewdrop, by M. C. Escher (mezzotint, 1984) from Digital Commonwealth website*
