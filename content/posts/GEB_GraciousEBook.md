@@ -29,11 +29,11 @@ the book all lost in the poor printing quality. You constantly have to refer to
 external sources to understand their depth which most of the time is crucial to
 get the point the author is trying to make.
 
-{{ image(path="/image/y8OrZSE.jpeg", width=1000, height=200, op="fit_width") }}
-*Figure 1. The Flute Concert by Menzel printed in GEB*
+{{ image(path="/image/y8OrZSE.jpeg", width=1000, height=200, op="fit_width",
+caption="Figure 1. The Flute Concert by Menzel printed in GEB") }}
 
-{{ image(path="/image/flute_concert.jpg", width=1000, height=200, op="fit_width") }}
-*Figure 2. The Flute Concert by Menzel from Wikipedia*
+{{ image(path="/image/flute_concert.jpg", width=1000, height=200, op="fit_width",
+caption="Figure 2. The Flute Concert by Menzel from Wikipedia") }}
 
 This has motivated me to collect external resources that complement this book as
 I go through it; particularly the artworks. It might be compiled into a
