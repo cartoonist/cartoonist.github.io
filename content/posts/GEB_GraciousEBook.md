@@ -58,8 +58,8 @@ caption="Figure 3. Three Worlds, by M. C. Escher (lithograph, 1955) printed in G
 centering=true,
 caption="Figure 4. Three Worlds, by M. C. Escher (lithograph, 1955) from 'Museum Escher in Het Paleis' website") }}
 
-{{ image(path="/image/7N1ufz3.jpeg", width=1000, height=200, op="fit_width") }}
-*Figure 5. Dewdrop, by M. C. Escher (mezzotint, 1948) printed in GEB*
+{{ image(path="/image/7N1ufz3.jpeg", width=1000, height=200, op="fit_width",
+caption="Figure 5. Dewdrop, by M. C. Escher (mezzotint, 1948) printed in GEB") }}
 
-{{ image(path="/image/NNAPUDt.jpeg", width=1000, height=200, op="fit_width") }}
-*Figure 6. Dewdrop, by M. C. Escher (mezzotint, 1984) from Digital Commonwealth website*
+{{ image(path="/image/NNAPUDt.jpeg", width=1000, height=200, op="fit_width",
+caption="Figure 6. Dewdrop, by M. C. Escher (mezzotint, 1984) from Digital Commonwealth website") }}
