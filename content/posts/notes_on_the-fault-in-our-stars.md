@@ -7,7 +7,7 @@ read_time = true
 transparent = true
 
 [taxonomies]
-tags = ["Book", "Reviews"]
+tags = ["Book", "Review"]
 +++
 
 ![cancer.gif](/image/cancer.gif)
