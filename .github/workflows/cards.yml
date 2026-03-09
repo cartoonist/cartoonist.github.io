@@ -20,7 +20,7 @@ jobs:
         with:
           card: stats
           options: username=${{ github.repository_owner }}&theme=moltack&show_icons=true&hide_border=true&count_private=true&card_width=500px
-          path: profile/stats.svg
+          path: static/profile/stats.svg
           token: ${{ secrets.METADATA_PAT }}
 
       - name: Generate top languages card
@@ -28,29 +28,29 @@ jobs:
         with:
           card: top-langs
           options: username=${{ github.repository_owner }}&theme=moltack&show_icons=true&hide_border=true&layout=compact&card_width=500px #&langs_count=6
-          path: profile/top-langs.svg
+          path: static/profile/top-langs.svg
           token: ${{ secrets.METADATA_PAT }}
 
-      - name: Generate pin card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: pin
-          options: username=readme-tools&repo=github-readme-stats
-          path: profile/pin-readme-tools-github-readme-stats.svg
-          token: ${{ secrets.METADATA_PAT }}
+#      - name: Generate pin card
+#        uses: readme-tools/github-readme-stats-action@v1
+#        with:
+#          card: pin
+#          options: username=readme-tools&repo=github-readme-stats
+#          path: static/profile/pin-readme-tools-github-readme-stats.svg
+#          token: ${{ secrets.METADATA_PAT }}
 
       - name: Generate trophy card
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: ${{ github.repository_owner }}
           options: title=MultiLanguage,LongTimeUser,Experience,Star&column=4&margin-w=2
-          output_path: profile/trophy.svg
+          output_path: static/profile/trophy.svg
           token: ${{ secrets.METADATA_PAT }}
 
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg
+          git add static/profile/*.svg
           git commit -m "Update README cards" || exit 0
           git push
