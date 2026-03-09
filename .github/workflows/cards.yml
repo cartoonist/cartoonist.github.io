@@ -40,12 +40,9 @@ jobs:
 #          token: ${{ secrets.METADATA_PAT }}
 
       - name: Generate trophy card
-        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+        uses: soulteary/github-profile-trophy-action@v1.0.0
         with:
-          username: ${{ github.repository_owner }}
-          margin-width: 2
-          max-cols: 4
-          #options: title=MultiLanguage,LongTimeUser,Experience,Star
+          options: username=${{ github.repository_owner }}&margin-w=2&column=4&title=MultiLanguage,LongTimeUser,Experience,Star
           output_path: static/profile/trophy.svg
           token: ${{ secrets.METADATA_PAT }}
 
