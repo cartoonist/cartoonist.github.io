@@ -43,7 +43,9 @@ jobs:
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: ${{ github.repository_owner }}
-          options: title=MultiLanguage,LongTimeUser,Experience,Star&column=4&margin-w=2
+          margin-width: 2
+          max-cols: 4
+          #options: title=MultiLanguage,LongTimeUser,Experience,Star
           output_path: static/profile/trophy.svg
           token: ${{ secrets.METADATA_PAT }}
 
