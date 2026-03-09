@@ -42,7 +42,8 @@ jobs:
       - name: Generate trophy card
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
-          options: username=${{ github.repository_owner }}&title=MultiLanguage,LongTimeUser,Experience,Star&column=4&margin-w=2
+          username: ${{ github.repository_owner }}
+          options: title=MultiLanguage,LongTimeUser,Experience,Star&column=4&margin-w=2
           output_path: profile/trophy.svg
           token: ${{ secrets.METADATA_PAT }}
 
