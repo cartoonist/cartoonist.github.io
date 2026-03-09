@@ -43,7 +43,7 @@ jobs:
         uses: soulteary/github-profile-trophy-action@v1.0.0
         with:
           options: username=${{ github.repository_owner }}&margin-w=2&column=4&title=MultiLanguage,LongTimeUser,Experience,Star
-          output_path: static/profile/trophy.svg
+          path: static/profile/trophy.svg
           token: ${{ secrets.METADATA_PAT }}
 
       - name: Commit cards
